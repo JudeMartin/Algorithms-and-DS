@@ -2,6 +2,9 @@ package LinkedList;
 
 public class DeleteNode {
 	public static void printList(ListNode curr){
+		if(curr==null){
+			return;
+		}
 		while(curr!=null){
 			System.out.print(curr.val+"->");
 			curr = curr.next;
@@ -15,22 +18,13 @@ public class DeleteNode {
 	}
 	public static void main(String[] args) {
 		/**
-		 * create 5 nodes
+		 * create 5 nodes and the interger values;
 		 * */
 		ListNode curr1 = new ListNode(1);
-		ListNode curr2 = new ListNode(1);
-		ListNode curr3 = new ListNode(1);
-		ListNode curr4 = new ListNode(1);
-		ListNode curr5 = new ListNode(1);
-		/**
-		 * set the values for the nodes
-		 * 
-		 * */
-		curr1.val = 35;
-		curr2.val = 13;
-		curr3.val = 23;
-		curr4.val = 43;
-		curr5.val = 53;
+		ListNode curr2 = new ListNode(21);
+		ListNode curr3 = new ListNode(11);
+		ListNode curr4 = new ListNode(13);
+		ListNode curr5 = new ListNode(11);
 		
 		/**
 		 * create the link
