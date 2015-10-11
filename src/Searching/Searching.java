@@ -20,8 +20,7 @@ public class Searching {
 		}
 		return 0;
 	}
-	void RecursiveBinarySearch(){
-		
+	void RecursiveBinarySearch(int[] ary, int n){
 	}
 	public static int linearSearch(int[] ary,int n){
 		for (int i = 0; i < ary.length; i++) {
