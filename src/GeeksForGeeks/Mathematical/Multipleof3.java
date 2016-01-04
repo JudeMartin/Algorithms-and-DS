@@ -6,6 +6,7 @@ public class Multipleof3 {
 	// without the modulo operator
 	// essentially the modulo operator using
 	//just int subtraction and division.
+	//for other nums 2-9 , just replace 3 with the number
 	public boolean isMuplitpleOf3(int n) {
 		return (n - 3 * (n / 3)) == 0;
 	}
