@@ -36,6 +36,10 @@ public class EfficientMultiplication {
 			result = (num << 3) + num;
 			break;
 
+		case 10:
+			result = ((num << 2) + num) + ((num << 2) + num);
+			break;
+
 		default:
 			break;
 		}
@@ -44,12 +48,12 @@ public class EfficientMultiplication {
 
 	public static void main(String[] args) {
 		EfficientMultiplication eM = new EfficientMultiplication();
-		int res = eM.efficientMultiplication(20, 6);
+		int res = eM.efficientMultiplication(20, 10);
 		System.out.println(res);
 	}
 }
 // idea is to remember 2^1,2^2,2^3
 // as left shift as 2 power x
-// and the rest are easy - num and + num respectively 
+// and the rest are easy - num and + num respectively
 // 6 = 2 + 4
 //
