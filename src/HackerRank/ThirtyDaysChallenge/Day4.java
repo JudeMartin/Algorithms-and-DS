@@ -12,8 +12,7 @@ public class Day4 {
 			age = initial_Age;
 			// Add some more code to run some checks on initial_Age
 			if (age < 0) {
-				System.out
-						.println("This person is not valid, setting age to 0.");
+				System.out.println("This person is not valid, setting age to 0.");
 				age = 0;
 			}
 		}
