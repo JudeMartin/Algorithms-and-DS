@@ -5,6 +5,8 @@ import java.util.Scanner;
 
 public class Day6 {
 	public static void main(String[] args) {
+
+		@SuppressWarnings("resource")
 		Scanner in = new Scanner(System.in);
 		int n = in.nextInt();
 
