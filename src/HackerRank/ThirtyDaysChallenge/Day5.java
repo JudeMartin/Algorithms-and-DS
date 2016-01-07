@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 public class Day5 {
 	public void looping(int a, int b, int N) {
-
 		int sum = a;
 		for (int i = 0; i < N; i++) {
 			sum += ((int) Math.pow(2, i) * b);
