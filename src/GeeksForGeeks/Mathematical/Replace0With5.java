@@ -9,13 +9,13 @@ public class Replace0With5 {
 		int d = 1;
 		int result = 0;
 		while (num > 0) {
-			
+
 			int carry = num % 10;
 			if (carry == 0) {
 				carry = 5;
 			}
-			result = (carry * d) +  result;
-			d *= 10;  
+			result = (carry * d) + result;
+			d *= 10;
 			num = num / 10;
 		}
 		return result;
