@@ -19,4 +19,9 @@ public class ValidAnagram {
 
 		return true;
 	}
+	public static void main(String[] args) {
+		ValidAnagram va = new ValidAnagram();
+		boolean res = va.isAnagram("cat", "tac");
+		System.out.println(res);
+	}
 }
