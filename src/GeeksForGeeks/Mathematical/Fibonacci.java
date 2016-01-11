@@ -19,14 +19,27 @@ public class Fibonacci {
 
 	}
 
-	/* O(logN) = time, O(1) = space */
-	public void generateFib(int num) {
-		System.out.println(num);
+	/* O(n) = time , O(1) = space */
+	/* Space optimized */
+	public static void generateFib(int num) {
+		if (num == 0) {
+			System.out.println("0");
+			return;
+		}
+		int a = 0, b = 1, c;
+		System.out.println("0" + "\n" + "1");
+		for (int i = 2; i <= num; i++) {
+			c = a + b;
+			a = b;
+			b = c;
+			System.out.println(c);
+		}
 	}
 
 	public static void main(String[] args) {
 		Fibonacci fb = new Fibonacci();
-		int num = 0;
+		int num = 10;
 		fb.generateFibonaciSeries(num);
+		generateFib(num);
 	}
 }
