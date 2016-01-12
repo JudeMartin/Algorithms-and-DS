@@ -1,5 +1,4 @@
 package HackerRank.ThirtyDaysChallenge;
-
 import java.util.Scanner;
 
 public class Day10 {
