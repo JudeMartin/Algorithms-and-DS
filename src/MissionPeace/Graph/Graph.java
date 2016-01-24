@@ -252,8 +252,8 @@ class Edge<T> {
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = result * prime + ((vertex1 == null) ? 0 : vertex1.hashCode());
-		result = result * prime + ((vertex2 == null) ? 0 : vertex2.hashCode());
+		result = prime * result + ((vertex1 == null) ? 0 : vertex1.hashCode());
+		result = prime * result + ((vertex2 == null) ? 0 : vertex2.hashCode());
 		return result;
 	}
 
