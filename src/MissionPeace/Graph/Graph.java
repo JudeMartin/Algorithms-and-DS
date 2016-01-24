@@ -247,16 +247,49 @@ class Edge<T> {
 		return isDirected;
 	}
 
-	// check for the same hashValue
+	/* check for the same hashValue using the exiting vertex's hash values */
+	@Override
 	public int hashCode() {
-		return 0;
+		final int prime = 31;
+		int result = 1;
+		result = result * prime + ((vertex1 == null) ? 0 : vertex1.hashCode());
+		result = result * prime + ((vertex2 == null) ? 0 : vertex2.hashCode());
+		return result;
 	}
 
 	/* checks for null, same type and same numeric value */
-	public boolean equals() {
-		return false;
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj) {
+			return true;
+		}
+		if (obj == null) {
+			return false;
+		}
+		if (getClass() != obj.getClass()) {
+			return false;
+		}
+
+		Edge other = (Edge) obj;
+		/* check for vertex1 , null and .equals */
+		if (vertex1 == null) {
+			if (other.vertex1 != null) {
+				return false;
+			}
+		} else if (other.vertex1.equals(vertex1))
+			return false;
+		/* check for vertex2 , null and .equals */
+		if (vertex2 == null) {
+			if (other.vertex2 != null) {
+				return false;
+			}
+		} else if (!other.vertex2.equals(vertex2))
+			return false;
+
+		return true;
 	}
 
+	@Override
 	public String toString() {
 		return "Edge [is Directed " + isDirected + ", vertex 1=" + vertex1
 				+ ", vertex2=" + vertex2 + ", weight=" + weight + "]";
