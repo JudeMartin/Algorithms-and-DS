@@ -1,5 +1,8 @@
-/* find the cycle in a graph that is not directed */
+/* find the cycle in a graph that is not directed *
+/
 /* 1) using Disjoint Sets , 2) Using DFS */
+
+/*  */
 package MissionPeace.Graph;
 
 public class CycleUnDirectedGraph<T> {
@@ -7,21 +10,19 @@ public class CycleUnDirectedGraph<T> {
 	boolean checkCycleUsingDisjointSet(Graph<Integer> graph) {
 
 		DisjointSet ds = new DisjointSet();
-		/* store all the vertices as individual set's */
-		for (Vertex<Integer> vertex : graph.getAllVertices()) {
+		
+		for (Vertex<Integer> vertex : graph.getAllVertices()) { /* store all the vertices as individual set's */
 			ds.makeSet(vertex.getId());
 		}
-		/* get all the edges */
-		/* get the 2 parent's Id's from the edges */
 		for (Edge<Integer> edge : graph.getAllEdges()) {
-			long parent1 = ds.findSet(edge.getVertex1().getId());
-			long parent2 = ds.findSet(edge.getVertex2().getId());
-			/* same Disjoint Set */
-			if (parent1 == parent2) {
+			long parent1 = ds.findSet(edge.getVertex1().getId()); /* get all the edges */
+			long parent2 = ds.findSet(edge.getVertex2().getId()); /* get the 2 parent's Id's from the edges */
+
+			if (parent1 == parent2) { 	/* same Disjoint Set */
 				return true;
 			} else {
-				/* not in the same Set, hence union the Id's */
-				ds.union(edge.getVertex1().getId(), edge.getVertex2().getId());
+				
+				ds.union(edge.getVertex1().getId(), edge.getVertex2().getId()); /* not in the same Set, hence union the Id's */
 			}
 		}
 		return false;

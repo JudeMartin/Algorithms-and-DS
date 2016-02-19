@@ -8,8 +8,19 @@ public class Java8Examples {
 	public static void printUsingJava8(List<String> names) {
 		System.out.println("*********** Printing using Java - 8 , Streams Api ********");
 		names.forEach(name -> System.out.print(name+" "));
+		names.forEach(System.out::println);
 	}
 
+	/* print the List in upper case */
+	public static void toUpperCase(List<String> names) {
+		System.out.println("*********** Printing in upperCase using Java - 8 , Streams Api ********");
+		names.stream().map(name -> name.toUpperCase()).forEach(System.out::println);
+		names.stream().map(String::toUpperCase).forEach(System.out::println); 
+	}
+	public static void countLength(List<String> names){
+		System.out.println("*********** Countint the length using Java - 8 , Streams Api ********");
+		
+	}
 	public static void main(String[] args) {
 		List<String> names = new ArrayList<String>();
 		names.add("Jude");
@@ -21,7 +32,8 @@ public class Java8Examples {
 		names.add("Chase");
 		names.add("Chuka");
 		names.add("Chumma");
-		names.add("");
+		names.add("\n");
 		printUsingJava8(names);
+		toUpperCase(names);
 	}
 }

@@ -14,7 +14,6 @@ public class Day10 {
 		}
 		return new StringBuffer(binary).reverse().toString();
 	}
-
 	public static void main(String[] args) {
 		@SuppressWarnings("resource")
 		Scanner scn = new Scanner(System.in);

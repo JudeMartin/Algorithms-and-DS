@@ -28,6 +28,7 @@ public class TwoSumDSDesign {
 	}
 
 	public static void main(String[] args) {
+
 		TwoSumDSDesign ds = new TwoSumDSDesign();
 		ds.add(1);
 		ds.add(3);
