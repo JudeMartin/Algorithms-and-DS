@@ -1,8 +1,11 @@
-public class TreeNode{
-	int val;
-	TreeNode left;
-	TreeNode right;
-	TreeNode (int x){
-		val = x;
+package MissionPeace.Trees;
+
+class TreeNode {
+	int data;
+	TreeNode left, right;
+
+	public TreeNode(int item) {
+		data = item;
+		left = right = null;
 	}
 }
