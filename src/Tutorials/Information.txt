@@ -1,0 +1,4 @@
+How to compile the whole package assuming you are in the root directory of the package:
+	javac src/MissionPeace/Trees/*.java
+How to run the specific class assuming there are no dependcies:
+	java -cp ./src MissionPeace.Trees.TreeTraversals

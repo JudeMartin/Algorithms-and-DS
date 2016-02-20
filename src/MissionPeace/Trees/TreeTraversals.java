@@ -11,7 +11,7 @@ public class TreeTraversals{
 		if(root == null){
 			return;
 		}
-		System.out.print(root.data+ " ");
+		System.out.print(root.data + " ");
 		preOrderRecursive(root.left);
 		preOrderRecursive(root.right);	
 	}
