@@ -33,7 +33,14 @@ public class TreeTraversals{
 			}
 		}
 	}
-	public void inOrderRecursive(TreeNode root){}	
+	public void inOrderRecursive(TreeNode root){
+		if(root == null){
+			return;
+		}	
+		inOrderRecursive(root.left);
+		System.out.print(root.data + " ");
+		inOrderRecursive(root.right);
+	}	
 	public void postOrderRecursive(TreeNode root){}
 	public void LevelorderIteravtive(TreeNode root){}
 	public static void main(String[] args){
@@ -45,12 +52,21 @@ public class TreeTraversals{
 			tree.root.left.left = new TreeNode(5);
 			tree.root.left.right = new TreeNode(7);
 
+			System.out.println("\n");
+			
 			System.out.println("Recursive PreOrder Traversal: ");
 			tree.preOrderRecursive(tree.root);
 			
 			System.out.println("\n");
-			
+						
 			System.out.println("Iterative PreOrder Traversal: ");
 			tree.preOrderIterative(tree.root);
+			
+			System.out.println("\n");
+			
+			System.out.println("Recursive InOrder Traversal: ");
+			tree.inOrderRecursive(tree.root);
+			
+			System.out.println(" ");
 	}
 }
