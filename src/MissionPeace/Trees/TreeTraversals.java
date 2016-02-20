@@ -1,10 +1,12 @@
-public class TreeTraversals {
-	public void inOrder(Node root){
-		if(root == null){
-			return;
-		}
-		inOrder(root.left);
-		System.out.print(root.data + " ");
-		inOrder(root.right);
+package MissionPeace.Trees;
+
+public class TreeTraversals{
+	public void InorderRecursive(TreeNode root){}
+	public void InorderIterative(TreeNode root){}
+	public void PreorderRecursive(TreeNode root){}
+	public void PostorderRecursive(TreeNode root){}
+	public void LevelorderIteravtive(TreeNode root){}
+	public static void main(String[] args){
+		TreeTraversals tt = new TreeTraversals();
 	}
 }
