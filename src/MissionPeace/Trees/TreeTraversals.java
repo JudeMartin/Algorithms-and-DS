@@ -1,5 +1,6 @@
 package MissionPeace.Trees;
 
+import java.util.Stack;
 public class TreeTraversals{
 	TreeNode root;
 	
@@ -15,6 +16,23 @@ public class TreeTraversals{
 		preOrderRecursive(root.left);
 		preOrderRecursive(root.right);	
 	}
+	public void preOrderIterative(TreeNode root){
+		if(root == null){
+			return;
+		}
+		Stack<TreeNode> s = new Stack<TreeNode>();
+		s.push(root);
+		while(!s.isEmpty()){
+			root = s.pop();	
+			System.out.print(root.data + " ");
+			if(root.right != null){
+				s.push(root.right);
+			}
+			if(root.left != null){
+				s.push(root.left);
+			}
+		}
+	}
 	public void inOrderRecursive(TreeNode root){}	
 	public void postOrderRecursive(TreeNode root){}
 	public void LevelorderIteravtive(TreeNode root){}
@@ -26,6 +44,13 @@ public class TreeTraversals{
 			tree.root.right = new TreeNode(4);
 			tree.root.left.left = new TreeNode(5);
 			tree.root.left.right = new TreeNode(7);
+
+			System.out.println("Recursive PreOrder Traversal: ");
 			tree.preOrderRecursive(tree.root);
+			
+			System.out.println("\n");
+			
+			System.out.println("Iterative PreOrder Traversal: ");
+			tree.preOrderIterative(tree.root);
 	}
 }
