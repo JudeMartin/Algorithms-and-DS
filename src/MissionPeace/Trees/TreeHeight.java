@@ -1,4 +1,5 @@
 package MissionPeace.Trees;
+
 public class TreeHeight {
 	TreeNode root;
 
@@ -25,8 +26,9 @@ public class TreeHeight {
 		tree.root.left.right = new TreeNode(5);
 		int leftHeight = getHeight(tree.root.right);
 		int rightHeight = getHeight(tree.root.left);
+		System.out.println("The left height is: " + leftHeight
+				+ ", The right height is: " + rightHeight);
 		int finalHeight = Math.max(leftHeight, rightHeight) + 1;
-
-		System.out.println("The Height of the Tree is: " + finalHeight);
+		System.out.println("The Total Height of the Tree is: " + finalHeight);
 	}
 }
