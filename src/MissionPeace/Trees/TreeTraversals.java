@@ -41,7 +41,14 @@ public class TreeTraversals{
 		System.out.print(root.data + " ");
 		inOrderRecursive(root.right);
 	}	
-	public void postOrderRecursive(TreeNode root){}
+	public void postOrderRecursive(TreeNode root){
+		if(root == null){
+			return;
+		}
+		postOrderRecursive(root.left);
+		postOrderRecursive(root.right);
+		System.out.print(root.data + " ");
+	}
 	public void LevelorderIteravtive(TreeNode root){}
 	public static void main(String[] args){
 		
