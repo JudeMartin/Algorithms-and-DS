@@ -78,7 +78,24 @@ public class TreeTraversals{
 
 	}
 
-	public void LevelorderIteravtive(TreeNode root){}
+	public void levelOrderIteravtive(TreeNode root){
+		if(root == null){
+			System.out.print("Please Enter a valid Tree");
+			return;
+		}
+		Queue<TreeNode> q = new LinkedList<TreeNode>();
+		q.offer(root);
+		while(!q.isEmpty()){
+			root  = q.poll();
+			System.out.print(root.data + " ");
+			if(root.left != null){
+				q.offer(root.left);
+			}
+			if(root.right != null){
+				q.offer(root.right);
+			}
+		}
+	}
 	public static void main(String[] args){
 		
 		TreeTraversals tree = new TreeTraversals();
@@ -108,9 +125,13 @@ public class TreeTraversals{
 			System.out.println("Reverse Level Order Traversal: ");
 			tree.reverseLevelOrderTraversal(tree.root);
 
-			System.out.println(" ");
+			
+			System.out.println("\n");
+			
+			System.out.println("Level Order Traversal Iterative : ");
+			tree.levelOrderIteravtive(tree.root);
 
-
+			
 	}
 		
 }
