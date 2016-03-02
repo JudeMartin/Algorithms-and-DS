@@ -21,6 +21,6 @@ public class Kandane {
 	  Kandane k = new Kandane();
 	  int arr[] = {-2,-3,4,-1,-2,1,5,-3};
 	  System.out.println("The Max contiguous sum in the array is: " 
-		+ k.getContigousArraySum(arr));	
+		 + k.getContigousArraySum(arr));	
 	}
 }
