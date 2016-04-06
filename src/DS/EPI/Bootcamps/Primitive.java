@@ -5,14 +5,22 @@ package DS.EPI.Bootcamps;
  */
 public class Primitive {
 
+    /* both must be set */
     public void andOperation(){
         int andOperation = 6 & 4;
-        System.out.print("And Operation of 6 , 4 `is : " + andOperation);
+        System.out.println("AND Operation of 6 , 4 is : " + andOperation);
     }
 
-    public static void main(String[] args){
+    /* either one must be set */
+    public void orOperation() {
+        int orOpeation = 1 | 2;
+        System.out.println("OR operation of 1 , 2 is : " + orOpeation);
+    }
+
+    public static void main (String[]args){
         Primitive p = new Primitive();
         p.andOperation();
+        p.orOperation();
     }
 
 }
