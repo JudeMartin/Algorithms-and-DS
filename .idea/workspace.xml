@@ -2,8 +2,107 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bae63c9-4fcf-44a0-bdcf-524552588919" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DS/EPI/Bootcamps/Primitive.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DS/EPI/CountBits.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Arrays/RotateArray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/DS/EPI/CountBits.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/DS/Leetcode/Hard/PostOrderTraversal.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/DS/Leetcode/Medium/MySqrt.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/DS/Leetcode/Medium/SingleNumber.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/DS/Leetcode/Medium/WordLadder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Examples/Advanced.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Examples/EmunExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Examples/HashMapExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Examples/Java8Examples.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Examples/JavaTricks.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Examples/hello.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Examples/hello.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Examples/looping.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GeeksForGeeks/BitManipulation/BitwiseExamples.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GeeksForGeeks/BitManipulation/DivBy9.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GeeksForGeeks/Mathematical/EfficientMultiplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GeeksForGeeks/Mathematical/Fibonacci.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GeeksForGeeks/Mathematical/IsFibonacciNumber.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GeeksForGeeks/Mathematical/LuckyNumbers.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GeeksForGeeks/Mathematical/MathSqrtImplementation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GeeksForGeeks/Mathematical/Multipleof3.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GeeksForGeeks/Mathematical/PascalsTriangle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GeeksForGeeks/Mathematical/PermutationsOfString.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GeeksForGeeks/Mathematical/Pow.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GeeksForGeeks/Mathematical/Replace0With5.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GeeksForGeeks/Random/SwapOneLine.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GeeksForGeeks/Random/TwoSumArray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/Algorithms/warmup/AVeryBigSum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/Algorithms/warmup/DiagonalDifference.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/Algorithms/warmup/PlusMinus.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/Algorithms/warmup/SimpleArraySum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/Algorithms/warmup/SolveMeFirst.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day0.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day10.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day11.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day13.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day14.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day15.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day16.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day17.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day18.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day19.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day20.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day21.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day22.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day23.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day25.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day3.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day4.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day5.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day6.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day7.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day8.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day9.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Hashing/RemoveDuplicates.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Java8/Examples.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Java8/Scrabble.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Java8/Shakespeare.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Java8/TomSwayer.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Java8/TomSwayer_01.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Java8/TomSwayer_02.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Java8/TomSwayer_03.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/LinkedList/DeleteNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/LinkedList/LinkedListLoop.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/LinkedList/ListNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/MissionPeace/Graph/CycleInDirectedGraph.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/MissionPeace/Graph/CycleUnDirectedGraph.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/MissionPeace/Graph/DisjointSet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/MissionPeace/Graph/Graph.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/MissionPeace/Graph/TopologicalSort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/MissionPeace/Graph/ipv4.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/MissionPeace/Tutorials/CheckValidSum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/MissionPeace/Tutorials/Kandane.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/MissionPeace/Tutorials/ParanMatching.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Searching/Searching.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/hello.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/looping.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/test.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leetcode/Easy/AddDigits.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/AddDigits.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leetcode/Easy/InvertBinaryTree.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/InvertBinaryTree.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leetcode/Easy/IsPow.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/IsPow.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leetcode/Easy/ListNode.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/ListNode.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leetcode/Easy/MoveZeros.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/MoveZeros.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leetcode/Easy/NimGame.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/NimGame.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leetcode/Easy/OddEvenLinkedList.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/OddEvenLinkedList.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leetcode/Easy/ReverseInteger.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/ReverseInteger.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leetcode/Easy/SameTree.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/SameTree.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leetcode/Easy/TwoSum.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/TwoSum.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leetcode/Easy/TwoSumDSDesign.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/TwoSumDSDesign.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leetcode/Easy/TwoSumIISortedArray.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/TwoSumIISortedArray.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leetcode/Easy/ValidAnagram.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/ValidAnagram.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leetcode/Easy/ValidPalindrome.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/ValidPalindrome.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leetcode/Easy/WordPattern.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/WordPattern.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leetcode/Easy/atoi.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/atoi.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leetcode/Easy/maxDepthBinaryTree.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/maxDepthBinaryTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DS/EPI/Bootcamps/Primitive.java" afterPath="$PROJECT_DIR$/src/DS/EPI/Bootcamps/Primitive.java" />
     </list>
     <ignored path="DataStructures.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,54 +124,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TwoSum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DS/EPI/TwoSum.java">
+      <file leaf-file-name="RotateArray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DS/Leetcode/Program Creek/a.StringArray/RotateArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.092307694">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CountBits.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DS/EPI/CountBits.java">
+      <file leaf-file-name="RotateArray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/OLD/Arrays/RotateArray.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Primitive.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DS/EPI/Bootcamps/Primitive.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.06923077">
-              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Examples.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Java8/Examples.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#3142#3158#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SwapOneLine.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GeeksForGeeks/Random/SwapOneLine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -104,6 +170,8 @@
         <option value="$PROJECT_DIR$/src/DS/EPI/TwoSum.java" />
         <option value="$PROJECT_DIR$/src/DS/EPI/CountBits.java" />
         <option value="$PROJECT_DIR$/src/DS/EPI/Bootcamps/Primitive.java" />
+        <option value="$PROJECT_DIR$/src/DS/Leetcode/Program Creek/01-String&amp;Array/RotateArray.java" />
+        <option value="$PROJECT_DIR$/src/DS/Leetcode/Program Creek/a.StringArray/RotateArray.java" />
       </list>
     </option>
   </component>
@@ -196,7 +264,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MissionPeace" />
+              <option name="myItemId" value="DS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leetcode" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -214,7 +286,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Java8" />
+              <option name="myItemId" value="DS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leetcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Program Creek" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -232,29 +312,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GeeksForGeeks" />
+              <option name="myItemId" value="DS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Random" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataStructures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithms-and-DS" />
+              <option name="myItemId" value="Leetcode" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="Program Creek" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GeeksForGeeks" />
+              <option name="myItemId" value="a.StringArray" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -272,51 +342,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GeeksForGeeks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BitManipulation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataStructures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithms-and-DS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataStructures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithms-and-DS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bootcamps" />
+              <option name="myItemId" value="DS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -352,47 +378,7 @@
       <recent name="$PROJECT_DIR$/src/DS/EPI" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Primitive">
-    <configuration default="false" name="Advanced" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Examples.Advanced" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DataStructures" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="SwapOneLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="GeeksForGeeks.Random.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="GeeksForGeeks.Random.SwapOneLine" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DataStructures" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.RotateArray (2)">
     <configuration default="false" name="CountBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -421,6 +407,61 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="DS.EPI.Bootcamps.Primitive" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DataStructures" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Arrays.RotateArray" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DataStructures" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="RotateArray (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="RotateArray" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DataStructures" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="RotateArray (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="a.StringArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="a.StringArray.RotateArray" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -858,19 +899,21 @@
       <envs />
       <method />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.TwoSum" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Advanced" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SwapOneLine" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CountBits" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Primitive" />
+      <item index="1" class="java.lang.String" itemvalue="Application.CountBits" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Primitive" />
+      <item index="3" class="java.lang.String" itemvalue="Application.RotateArray" />
+      <item index="4" class="java.lang.String" itemvalue="Application.RotateArray (1)" />
+      <item index="5" class="java.lang.String" itemvalue="Application.RotateArray (2)" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.Primitive" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CountBits" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SwapOneLine" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Advanced" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.RotateArray (2)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.RotateArray (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.RotateArray" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Primitive" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CountBits" />
       </list>
     </recent_temporary>
   </component>
@@ -884,7 +927,7 @@
       <created>1459903847436</created>
       <option name="number" value="Default" />
       <updated>1459903847436</updated>
-      <workItem from="1459903851848" duration="5068000" />
+      <workItem from="1459903851848" duration="7695000" />
     </task>
     <task id="LOCAL-00001" summary="DataStructures : EPI&#10;">
       <created>1459917436082</created>
@@ -892,11 +935,17 @@
       <option name="project" value="LOCAL" />
       <updated>1459917436082</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="EPI : Primitive BootCamp">
+      <created>1459969868056</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1459969868056</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5068000" />
+    <option name="totallyTimeSpent" value="7695000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -909,19 +958,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871288" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871288" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32871288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.185836" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.185836" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -961,53 +1010,24 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DataStructures : EPI&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="DataStructures : EPI&#10;" />
+    <MESSAGE value="EPI : Primitive BootCamp" />
+    <option name="LAST_COMMIT_MESSAGE" value="EPI : Primitive BootCamp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DS/EPI/CountBits.java</url>
-          <line>11</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DS/EPI/CountBits.java</url>
-          <line>12</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DS/EPI/CountBits.java</url>
-          <line>13</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DS/EPI/CountBits.java</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DS/EPI/CountBits.java</url>
-          <line>15</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DS/EPI/CountBits.java</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
@@ -1025,61 +1045,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Arrays/RotateArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.031982943">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GeeksForGeeks/BitManipulation/BitwiseExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06396589">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Examples/Advanced.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41577825">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GeeksForGeeks/Mathematical/IsFibonacciNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Leetcode/Easy/TwoSumIISortedArray.java">
+    <entry file="file://$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/TwoSumIISortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19189766">
           <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java8/Examples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3142#3158#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GeeksForGeeks/Random/SwapOneLine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -1092,18 +1061,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DS/EPI/CountBits.java">
+    <entry file="file://$PROJECT_DIR$/src/DS/EPI/Bootcamps/Primitive.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DS/EPI/Bootcamps/Primitive.java">
+    <entry file="file://$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/atoi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06923077">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DS/Leetcode/Program Creek/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.024077047">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/AddDigits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.046153847">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OLD/Arrays/RotateArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DS/Leetcode/Program Creek/a.StringArray/RotateArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.092307694">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
           <folding />
         </state>
       </provider>

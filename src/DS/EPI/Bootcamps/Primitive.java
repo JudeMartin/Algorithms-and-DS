@@ -17,10 +17,15 @@ public class Primitive {
         System.out.println("OR operation of 1 , 2 is : " + orOpeation);
     }
 
+    public void notOperation(){
+        int notOperation = ~0;
+        System.out.println("NOT Operation of 0 is : " + notOperation);
+    }
+
     public static void main (String[]args){
         Primitive p = new Primitive();
         p.andOperation();
         p.orOperation();
+        p.notOperation();
     }
-
 }
