@@ -4,10 +4,8 @@ package DS.EPI;
  * Created by jude on 4/5/16.
  */
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Random;
+import java.lang.reflect.Array;
+import java.util.*;
 
 public class TwoSum {
     // @include
@@ -37,6 +35,53 @@ public class TwoSum {
         }
         return false;
     }
+    /* This code will fail for negative numbers in the array, Hcne the better solution is to use a HashMap */
+    public static int[] twoSumWithoutMap(int[] nums, int target) {
+        int i = 0,j = nums.length - 1;
+        int[] res = new int[2];
+        while(i <= nums.length - 1 && j >= 0){
+            if(nums[i] + nums[j] == target) {
+                res[0] = i;
+                res[1] = j;
+                Arrays.sort(res);
+                return res;
+            } else if(nums[i] + nums[j] < target){
+                ++i;
+            } else {
+                --j;
+            }
+        }
+        return res;
+    }
+    /* input is not sorted  */
+    public static int[] twoSum(int[] nums,int target){
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            int complement = target - nums[i]; /* not sure Y */
+            if(map.containsKey(complement)){
+                return new int[] { map.get(complement),i };
+            }
+            map.put(nums[i],i);
+        }
+        throw new IllegalArgumentException("No two sum solution in the array given");
+    }
+    /* Input is sorted order */
+    public int[] twoSumSorted(int[] nums, int target) {
+        int i = 0,j = nums.length - 1;
+        int[] res = new int[2];
+        while(i <= j ){
+            if(nums[i] + nums[j] == target) {
+                res[0] = i + 1;
+                res[1] = j + 1;
+                return res;
+            } else if(nums[i] + nums[j] < target){
+                ++i;
+            } else {
+                --j;
+            }
+        }
+        throw new IllegalArgumentException("No such target");
+    }
 
     public static void main(String[] args) {
         Random gen = new Random();
@@ -58,6 +103,9 @@ public class TwoSum {
             System.out.println(hasTwoSum(A, T) ? "true" : "false");
             assert(checkAns(A, T) == hasTwoSum(A, T));
         }
+        int[] arr = {3,2,4};
+        int[] res = twoSum(arr,6);
+        System.out.println(Arrays.toString(res));
     }
 
 }
