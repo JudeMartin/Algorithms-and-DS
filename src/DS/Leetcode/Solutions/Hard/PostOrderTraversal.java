@@ -1,4 +1,4 @@
-package Leetcode.Hard;
+package DS.Leetcode.Hard;
 
 import java.util.*;
 import java.util.List;

@@ -1,5 +1,5 @@
 /* https://leetcode.com/problems/sqrtx/ */
-package Leetcode.Medium;
+package DS.Leetcode.Medium;
 
 public class MySqrt {
 

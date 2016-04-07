@@ -1,4 +1,4 @@
-package Leetcode.Medium;
+package DS.Leetcode.Medium;
 /* https://leetcode.com/problems/word-ladder/ */
 import java.util.LinkedList;
 import java.util.Set;

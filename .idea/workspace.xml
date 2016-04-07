@@ -2,107 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bae63c9-4fcf-44a0-bdcf-524552588919" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Arrays/RotateArray.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/DS/EPI/CountBits.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/DS/Leetcode/Hard/PostOrderTraversal.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/DS/Leetcode/Medium/MySqrt.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/DS/Leetcode/Medium/SingleNumber.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/DS/Leetcode/Medium/WordLadder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Examples/Advanced.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Examples/EmunExample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Examples/HashMapExample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Examples/Java8Examples.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Examples/JavaTricks.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Examples/hello.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Examples/hello.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Examples/looping.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GeeksForGeeks/BitManipulation/BitwiseExamples.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GeeksForGeeks/BitManipulation/DivBy9.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GeeksForGeeks/Mathematical/EfficientMultiplication.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GeeksForGeeks/Mathematical/Fibonacci.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GeeksForGeeks/Mathematical/IsFibonacciNumber.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GeeksForGeeks/Mathematical/LuckyNumbers.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GeeksForGeeks/Mathematical/MathSqrtImplementation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GeeksForGeeks/Mathematical/Multipleof3.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GeeksForGeeks/Mathematical/PascalsTriangle.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GeeksForGeeks/Mathematical/PermutationsOfString.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GeeksForGeeks/Mathematical/Pow.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GeeksForGeeks/Mathematical/Replace0With5.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GeeksForGeeks/Random/SwapOneLine.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GeeksForGeeks/Random/TwoSumArray.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/Algorithms/warmup/AVeryBigSum.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/Algorithms/warmup/DiagonalDifference.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/Algorithms/warmup/PlusMinus.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/Algorithms/warmup/SimpleArraySum.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/Algorithms/warmup/SolveMeFirst.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day0.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day1.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day10.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day11.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day13.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day14.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day15.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day16.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day17.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day18.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day19.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day20.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day21.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day22.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day23.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day25.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day3.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day4.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day5.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day6.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day7.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day8.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HackerRank/ThirtyDaysChallenge/Day9.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Hashing/RemoveDuplicates.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Java8/Examples.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Java8/Scrabble.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Java8/Shakespeare.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Java8/TomSwayer.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Java8/TomSwayer_01.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Java8/TomSwayer_02.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Java8/TomSwayer_03.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/LinkedList/DeleteNode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/LinkedList/LinkedListLoop.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/LinkedList/ListNode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/MissionPeace/Graph/CycleInDirectedGraph.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/MissionPeace/Graph/CycleUnDirectedGraph.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/MissionPeace/Graph/DisjointSet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/MissionPeace/Graph/Graph.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/MissionPeace/Graph/TopologicalSort.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/MissionPeace/Graph/ipv4.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/MissionPeace/Tutorials/CheckValidSum.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/MissionPeace/Tutorials/Kandane.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/MissionPeace/Tutorials/ParanMatching.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Searching/Searching.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/hello.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/looping.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/test.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leetcode/Easy/AddDigits.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/AddDigits.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leetcode/Easy/InvertBinaryTree.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/InvertBinaryTree.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leetcode/Easy/IsPow.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/IsPow.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leetcode/Easy/ListNode.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/ListNode.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leetcode/Easy/MoveZeros.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/MoveZeros.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leetcode/Easy/NimGame.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/NimGame.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leetcode/Easy/OddEvenLinkedList.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/OddEvenLinkedList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leetcode/Easy/ReverseInteger.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/ReverseInteger.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leetcode/Easy/SameTree.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/SameTree.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leetcode/Easy/TwoSum.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/TwoSum.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leetcode/Easy/TwoSumDSDesign.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/TwoSumDSDesign.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leetcode/Easy/TwoSumIISortedArray.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/TwoSumIISortedArray.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leetcode/Easy/ValidAnagram.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/ValidAnagram.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leetcode/Easy/ValidPalindrome.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/ValidPalindrome.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leetcode/Easy/WordPattern.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/WordPattern.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leetcode/Easy/atoi.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/atoi.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Leetcode/Easy/maxDepthBinaryTree.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/maxDepthBinaryTree.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Leetcode/Hard/PostOrderTraversal.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Leetcode/Medium/MySqrt.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Leetcode/Medium/SingleNumber.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Leetcode/Medium/WordLadder.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DS/EPI/Bootcamps/Primitive.java" afterPath="$PROJECT_DIR$/src/DS/EPI/Bootcamps/Primitive.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/IsPow.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/IsPow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/NimGame.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/NimGame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/ValidPalindrome.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/ValidPalindrome.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/WordPattern.java" afterPath="$PROJECT_DIR$/src/DS/Leetcode/Solutions/Easy/WordPattern.java" />
     </list>
     <ignored path="DataStructures.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -249,6 +157,54 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OLD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataStructures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms-and-DS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OLD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataStructures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms-and-DS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OLD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Arrays" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -269,62 +225,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Leetcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataStructures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithms-and-DS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Leetcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Program Creek" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataStructures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithms-and-DS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Leetcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Program Creek" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="a.StringArray" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -927,7 +827,7 @@
       <created>1459903847436</created>
       <option name="number" value="Default" />
       <updated>1459903847436</updated>
-      <workItem from="1459903851848" duration="7695000" />
+      <workItem from="1459903851848" duration="7828000" />
     </task>
     <task id="LOCAL-00001" summary="DataStructures : EPI&#10;">
       <created>1459917436082</created>
@@ -941,11 +841,17 @@
       <option name="project" value="LOCAL" />
       <updated>1459969868056</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Project Clean Up &lt; Refactoring Completed &gt;">
+      <created>1459990700070</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1459990700070</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7695000" />
+    <option name="totallyTimeSpent" value="7828000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -958,7 +864,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -970,7 +876,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32871288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.185836" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.185836" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1024,7 +930,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DataStructures : EPI&#10;" />
     <MESSAGE value="EPI : Primitive BootCamp" />
-    <option name="LAST_COMMIT_MESSAGE" value="EPI : Primitive BootCamp" />
+    <MESSAGE value="Project Clean Up &lt; Refactoring Completed &gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project Clean Up &lt; Refactoring Completed &gt;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
