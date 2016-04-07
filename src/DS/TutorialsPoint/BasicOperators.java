@@ -5,10 +5,40 @@ package DS.TutorialsPoint;
  */
 public class BasicOperators {
 
+    public void arithematic(){}
+
+    public  void relational(){}
+
+    public void bitwise(){}
+
+    public void logical(){}
+
+    public void assignment(){}
+
+    /* 2 */
+    public void miscOperators(){
+
+        /* (condition) ? " consider this value if true " : " consider this value if false " */
+        int a = 9, b;
+        b = (a == 1) ? 20 : 30; /* False */
+        System.out.println("Value of b is : " + b);
+
+        b = (a == 9) ? 20 : 30; /* True */
+        System.out.println("Value of b is : " + b);
+
+        /* instanceof */
+        /* (object ) instanceof (class) */
+
+        String name = "Martin";
+        boolean result = name instanceof String;
+        System.out.println(result);
+
+    }
 
 
     public static void main(String[] args) {
-
+        BasicOperators bo = new BasicOperators();
+        bo.miscOperators();
     }
 }
 /** There are 6 basic operator's
