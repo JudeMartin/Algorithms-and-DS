@@ -19,7 +19,7 @@ public class TwoSumDataStructureDesign {
     }
 
     public boolean find(int number){
-        for (Integer i : maps.keySet()){
+        for (Integer i : map.keySet()){
             int target = number - i;
             if(map.containsKey(target)){
                 if(i == target && map.get(target) < 2){
@@ -30,5 +30,10 @@ public class TwoSumDataStructureDesign {
         }
         return false;
     }
-}
+
+    public static void main(String[] args) {
+
+        System.out.println("Hello");
+
+    }
 }
