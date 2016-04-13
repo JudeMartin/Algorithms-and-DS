@@ -1,4 +1,4 @@
-package DS.EPI;
+package DS.EPI.PrimtiveTypes;
 
 /**
  * Created by jude on 4/5/16.

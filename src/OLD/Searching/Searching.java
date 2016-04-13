@@ -1,4 +1,4 @@
-package Searching;
+package OLD.Searching;
 /*
  * If there is a match return corresponding element else return 0 
  **/

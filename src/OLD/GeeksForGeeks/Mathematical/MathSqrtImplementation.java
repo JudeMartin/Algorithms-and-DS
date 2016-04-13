@@ -1,6 +1,6 @@
 /* http://www.geeksforgeeks.org/square-root-of-a-perfect-square/ */
 
-package GeeksForGeeks.Mathematical;
+package OLD.GeeksForGeeks.Mathematical;
 
 /* babylonian method */
 

@@ -1,5 +1,5 @@
 /* https://leetcode.com/problems/single-number/ */
-package DS.Leetcode.Medium;
+package DS.Leetcode.Solutions.Medium;
 
 public class SingleNumber {
 

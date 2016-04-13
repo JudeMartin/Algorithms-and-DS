@@ -1,4 +1,4 @@
-package GeeksForGeeks.Mathematical;
+package OLD.GeeksForGeeks.Mathematical;
 
 import java.util.LinkedList;
 import java.util.Queue;

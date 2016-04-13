@@ -1,5 +1,5 @@
 /* http://geeksquiz.com/replace-0-5-input-integer/ */
-package GeeksForGeeks.Mathematical;
+package OLD.GeeksForGeeks.Mathematical;
 
 import java.util.Scanner;
 

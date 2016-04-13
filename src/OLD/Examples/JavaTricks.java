@@ -1,5 +1,5 @@
 /* http://www.geeksforgeeks.org/few-tricky-programs-in-java/ */
-package Examples;
+package OLD.Examples;
 
 public class JavaTricks {
 	public static void main(String[] args) {

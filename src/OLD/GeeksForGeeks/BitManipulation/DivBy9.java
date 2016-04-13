@@ -1,5 +1,5 @@
 /* http://www.geeksforgeeks.org/divisibility-9-using-bitwise-operators/ */
-package GeeksForGeeks.BitManipulation;
+package OLD.GeeksForGeeks.BitManipulation;
 
 public class DivBy9 {
 	static boolean isDivBy9(int n) {

@@ -1,6 +1,6 @@
 /* https://github.com/mission-peace/interview/blob/master/src/com/interview/graph/DisjointSet.java */
 /* DisjointSet: using Path Compression and Union by rank*/
-package MissionPeace.Graph;
+package OLD.MissionPeace.Graph;
 
 import java.util.HashMap;
 import java.util.Map;

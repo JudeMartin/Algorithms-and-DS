@@ -1,6 +1,6 @@
 /* https://www.hackerrank.com/challenges/plus-minus */
 
-package HackerRank.Algorithms.warmup;
+package OLD.HackerRank.Algorithms.warmup;
 
 import java.util.Scanner;
 

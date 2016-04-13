@@ -1,4 +1,4 @@
-package Examples;
+package OLD.Examples;
 
 public class EmunExample {
 	public enum Day {

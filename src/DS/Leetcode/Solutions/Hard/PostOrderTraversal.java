@@ -1,4 +1,4 @@
-package DS.Leetcode.Hard;
+package DS.Leetcode.Solutions.Hard;
 
 import java.util.*;
 import java.util.List;

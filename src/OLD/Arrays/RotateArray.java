@@ -1,4 +1,4 @@
-package Arrays;
+package OLD.Arrays;
 public class RotateArray {
 	public static void rotateArray(int a[],int k){
 		/* reverse first half 

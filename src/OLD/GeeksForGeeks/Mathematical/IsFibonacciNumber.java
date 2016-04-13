@@ -1,4 +1,4 @@
-package GeeksForGeeks.Mathematical;
+package OLD.GeeksForGeeks.Mathematical;
 
 public class IsFibonacciNumber {
 	public static void main(String[] args) {

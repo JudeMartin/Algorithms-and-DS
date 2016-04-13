@@ -1,5 +1,5 @@
 /* http://www.geeksforgeeks.org/efficient-way-to-multiply-with-7/ */
-package GeeksForGeeks.Mathematical;
+package OLD.GeeksForGeeks.Mathematical;
 
 public class EfficientMultiplication {
 	public int efficientMultiplication(int num, int multplyBy) {

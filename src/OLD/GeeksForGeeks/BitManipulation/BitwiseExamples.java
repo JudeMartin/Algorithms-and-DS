@@ -1,4 +1,4 @@
-package GeeksForGeeks.BitManipulation;
+package OLD.GeeksForGeeks.BitManipulation;
 
 public class BitwiseExamples {
 	public static void main(String[] args) {

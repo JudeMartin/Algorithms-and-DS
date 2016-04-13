@@ -1,6 +1,6 @@
 /* http://www.geeksforgeeks.org/write-you-own-power-without-using-multiplication-and-division/ */
 /* DOSENT WORK FOR DOUBLE ONLY FOR INT'S */
-package GeeksForGeeks.Mathematical;
+package OLD.GeeksForGeeks.Mathematical;
 
 public class Pow {
 	int pow(int a, int b) {

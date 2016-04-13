@@ -1,4 +1,4 @@
-package LinkedList;
+package OLD.LinkedList;
 
 public class LinkedListLoop {
 	public static void printList(ListNode curr){

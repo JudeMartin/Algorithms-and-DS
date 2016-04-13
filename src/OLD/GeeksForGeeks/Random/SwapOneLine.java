@@ -1,5 +1,5 @@
 /*http://www.geeksforgeeks.org/how-to-swap-two-variables-in-one-line/ */
-package GeeksForGeeks.Random;
+package OLD.GeeksForGeeks.Random;
 
 public class SwapOneLine {
 	public static void swapOneLine(int a, int b) {

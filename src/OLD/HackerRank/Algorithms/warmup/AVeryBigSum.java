@@ -1,6 +1,6 @@
 /* https://www.hackerrank.com/challenges/a-very-big-sum */
 
-package HackerRank.Algorithms.warmup;
+package OLD.HackerRank.Algorithms.warmup;
 
 import java.util.Scanner;
 

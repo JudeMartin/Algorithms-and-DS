@@ -1,4 +1,4 @@
-package MissionPeace.Tutorials;
+package OLD.MissionPeace.Tutorials;
 
 public class Kandane {
     public int getContigousArraySum(int [] arr){

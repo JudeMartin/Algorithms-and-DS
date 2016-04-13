@@ -1,4 +1,4 @@
-package Hashing;
+package OLD.Hashing;
 //n^2 complexity
 public class RemoveDuplicates {
 	public static void main(String[] args) {
