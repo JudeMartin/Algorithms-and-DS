@@ -1,4 +1,4 @@
-package GeeksForGeeks.DS.LinkedList.SingleLL;
+package DS.GeeksForGeeks.LinkedList.SingleLL;
 
 public class SwapNodesWithoutSwappingData {
 
