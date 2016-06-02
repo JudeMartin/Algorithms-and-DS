@@ -5,6 +5,7 @@ import java.util.List;
 
 public class ExampleList {
 	public static void main(String[] args) {
+		/* List interface *//* ArrayList, implementation */
 		List<Integer> aL = new ArrayList<>();
 		/* add items to the ArrayList */
 		aL.add(1);
@@ -25,5 +26,11 @@ public class ExampleList {
 		for (int j = 0; j < aL.size(); j++) {
 			System.out.print(" " + aL.get(j));
 		}
+		/* very slow as the copying needs to be done to fill the holes */
+		aL.remove(0);
+		/* fast since there are no holes to fill */
+		aL.remove(aL.size() - 1);
+		
+		System.out.println(Integer.MAX_VALUE);
 	}
 }
