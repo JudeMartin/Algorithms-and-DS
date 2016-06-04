@@ -17,13 +17,13 @@ public class ATutorialArrayList {
 		/* retrieving */
 		System.out.println(arrayList.get(2) + "\n");
 
-		/* iteration with indexes */
+		/* index based iteration */
 		for (int i = 0; i < arrayList.size(); i++) {
 			System.out.print(arrayList.get(i) + " ");
 		}
 		System.out.println("\n");
 
-		/* iteration without indexes */
+		/* For Each loop iteration */
 		for (Integer value : arrayList) {
 			System.out.print(value + " ");
 		}
