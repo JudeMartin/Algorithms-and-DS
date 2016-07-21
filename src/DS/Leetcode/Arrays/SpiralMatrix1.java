@@ -4,22 +4,31 @@ public class Solution {
     List<Integer> list = new ArrayList<>();
     if(matrix == null || matrix.length == 0 || matrix[0].length == 0) return list;
     
-    int rowMin = 0, rowMax = matrix.length-1, colMin = 0, colMax = matrix[0].length-1;
-    while(rowMin <= rowMax && colMin <= colMax) {
-        for(int i=colMin; i<=colMax; i++) list.add(matrix[rowMin][i]);
-        rowMin++;
+    int top = 0, bottom = matrix.length-1, left = 0, right = matrix[0].length-1;
+    while(left <= right && top <= bottom) {
+        for(int i = left; i <= right; i++) {
+            list.add(matrix[top][i]);
+        }
+        top++;
         
-        for(int i=rowMin; i<=rowMax; i++) list.add(matrix[i][colMax]);
-        colMax--;
+        for(int i = top; i <= bottom; i++) {
+            list.add(matrix[i][right]);
+        }
+        right--;
         
-        if(rowMin > rowMax || colMin > colMax) break;
+        if(top > bottom || left > right) break;
         
-        for(int i=colMax; i>=colMin; i--) list.add(matrix[rowMax][i]);
-        rowMax--;
+        for(int i = right; i >= left; i--) {
+            list.add(matrix[bottom][i]);
+        }
+        bottom--;
         
-        for(int i=rowMax; i>=rowMin; i--) list.add(matrix[i][colMin]);
-        colMin++;
+        for(int i = bottom; i >= top; i--){
+          list.add(matrix[i][left]);  
+        } 
+        left++;
     }
     return list;
     }
 }
+
