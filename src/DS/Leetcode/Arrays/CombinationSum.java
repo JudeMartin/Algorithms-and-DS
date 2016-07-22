@@ -1,6 +1,7 @@
 /* https://leetcode.com/problems/combination-sum/ */
 public class Solution {
-    public List<List<Integer>> combinationSum(int[] candidates, int target) {
+  public List<List<Integer>> combinationSum(int[] candidates, int target) {
+       	Arrays.sort(candidates);
         List<List<Integer>> result = new ArrayList<List<Integer>>();
         combinationSum(result,new ArrayList<Integer>(),candidates,target,0);
         return result;
@@ -9,10 +10,12 @@ public class Solution {
         if (target > 0) {
             for (int i = start;i < candidates.length;i++) { // not using the condition "target >= candidates[i]"
                 cur.add(candidates[i]);
-                combinationSum(result, cur, candidates, target-candidates[i],i);
+                combinationSum(result, cur, candidates, target-candidates[i], i);
                 cur.remove(cur.size() - 1);
             }
         }
-        if (target == 0) result.add(new ArrayList<Integer>(cur));
+       else if (target == 0) {
+           result.add(new ArrayList<Integer>(cur));
+       }
     }
-}
+} 
