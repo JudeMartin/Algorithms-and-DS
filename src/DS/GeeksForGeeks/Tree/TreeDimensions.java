@@ -1,6 +1,5 @@
 package DS.GeeksForGeeks.Tree;
 
-import DS.Leetcode.Solutions.Easy.maxDepthBinaryTree;
 
 public class TreeDimensions {
 
@@ -12,7 +11,15 @@ public class TreeDimensions {
 		return size(root.left) + 1 + size(root.right);
 	}
 
-	public void deleteTree(TreeNode root) {
+	public static void deleteTree(TreeNode root) {
+		//use postOrder traversal to delete the tree 
+		if(root == null) {
+			return;
+		}
+		deleteTree(root.left);
+		deleteTree(root.right);
+		System.out.println("Deleting node: " + root.val);
+		root = null;
 	}
 
 	public static int maxDepthOrHeight(TreeNode root) {
@@ -51,5 +58,6 @@ public class TreeDimensions {
 				+ maxDepthOrHeight(root));
 		System.out.println("The number of leaves of the Binary Tree is: "
 				+ countLeaves(root));
+		deleteTree(root);
 	}
 }
