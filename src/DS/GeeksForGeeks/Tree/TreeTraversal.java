@@ -29,22 +29,75 @@ public class TreeTraversal {
 		}
 		return res;
 	}
-
-	// preOrder Traversal
-
+	//Iterative InOrder without stack : Morri's Traversal
+	public static List<Integer> morrisInOrderTraversal(TreeNode root) {
+		List<Integer> res = new ArrayList<>();
+		if(root == null) {
+			return res;
+		}
+		TreeNode curr = root;
+		while(curr != null) {
+			if(curr.left == null) {
+				res.add(curr.val);
+				curr = curr.right;
+			} else {
+				TreeNode predecessor = curr.left;
+				while(predecessor.right != null && predecessor.right != curr) {
+					predecessor = predecessor.right;
+				}
+				if(predecessor.right == null) {
+					predecessor.right = curr;
+					curr = curr.left;
+				} else {
+					predecessor.right = null;
+					res.add(curr.val);
+					curr = curr.right;
+				}
+			}
+		}
+		return res;
+	}
+	// preOrder Morris Traversal: in the null check just print the val instead of the else block 
+	public static List<Integer> morrisPreOrderTraversal(TreeNode root) {
+		List<Integer> res = new ArrayList<>();
+		if(root == null) {
+			return res;
+		}
+		TreeNode curr = root;
+		while(curr != null) {
+			if(curr.left == null) {
+				res.add(curr.val);
+				curr = curr.right;
+			} else {
+				TreeNode predecessor = curr.left;
+				while(predecessor.right != null && predecessor.right != curr) {
+					predecessor = predecessor.right;
+				}
+				if(predecessor.right == null) {
+					predecessor.right = curr;
+					res.add(curr.val);
+					curr = curr.left;
+				} else {
+					predecessor.right = null;
+					curr = curr.right;
+				}
+			}
+		}
+		return res;
+	}
 	// postOrder Traversal
+	
+	
 	public static void main(String[] args) {
 		TreeNode root = new TreeNode(1);
 		root.right = new TreeNode(3);
 		root.left = new TreeNode(2);
 		root.left.left = new TreeNode(4);
 		root.left.right = new TreeNode(5);
-		inorderTraversal(root);
+		//inorderTraversal(root);
+		List<Integer> res = morrisInOrderTraversal(root);
+		System.out.println(res.toString());
+		List<Integer> res1 = morrisPreOrderTraversal(root);
+		System.out.println(res1.toString());
 	}
 }
-// InOrder Traversal:
-// always check for the node's left as null
-// and when inserting a left node into the stack make its corresponding element
-// in the Tree as root
-// Exp: To make sure that the left node is visited we do the above step, hence
-// next iteration we wont put left in stack again
