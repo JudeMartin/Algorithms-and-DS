@@ -1,6 +1,5 @@
 package DS.LinkedList;
-
-
+/* https://leetcode.com/problems/odd-even-linked-list/ */
 public class OddEvenLinkedList {
 
 	public static ListNode oddEvenList(ListNode head) {
@@ -42,4 +41,4 @@ public class OddEvenLinkedList {
 		System.out.print("null");
 	}
 }
-//1->2->3->4->5-
+// 1->2->3->4->5-
