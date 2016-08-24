@@ -54,9 +54,10 @@ public class TreeDimensions {
 		int lDiameter = diameter(root.left);
 		int rDiameter = diameter(root.right);
 
-		return Math
-				.max((lHeight + rHeight + 1), Math.max(lDiameter, rDiameter));
+		return Math.max((lHeight + rHeight + 1), Math.max(lDiameter, rDiameter));
 	}
+
+	
 
 	public static void main(String[] args) {
 
@@ -71,6 +72,8 @@ public class TreeDimensions {
 		System.out.println("The Diameter of the given tree: " + diameter(root));
 		System.out.println("The number of leaves of the Binary Tree is: "
 				+ countLeaves(root));
+		//List<String> res = binaryTreePaths(root);
+		//System.out.println(res.toString());
 		deleteTree(root);
 
 	}

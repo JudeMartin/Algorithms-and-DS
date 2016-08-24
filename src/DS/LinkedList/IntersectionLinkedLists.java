@@ -12,17 +12,15 @@ public class IntersectionLinkedLists {
 		int l2Length = length(head2);
 		if (l1Length > l2Length) {
 			int diff = Math.abs(l1Length - l2Length);
-			int i = 0;
-			while (i < diff) {
+
+			for (int i = 0; i < diff; i++) {
 				p1 = p1.next;
-				i++;
 			}
 		} else {
 			int diff = Math.abs(l1Length - l2Length);
-			int i = 0;
-			while (i < diff) {
+
+			for (int i = 0; i < diff; i++) {
 				p2 = p2.next;
-				i++;
 			}
 		}
 		while (p1 != null && p2 != null) {
