@@ -4,31 +4,21 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BinaryTreePaths {
-	public List<String> binaryTreePaths(TreeNode root) {
-		ArrayList<String> finalResult = new ArrayList<String>();
+	public static List<String> binaryTreePaths(TreeNode root) {
+		List<String> finalResult = new ArrayList<String>();
 
 		if (root == null) {
 			return finalResult;
 		}
-		ArrayList<String> curr = new ArrayList<String>();
-		ArrayList<ArrayList<String>> results = new ArrayList<ArrayList<String>>();
+		List<String> curr = new ArrayList<String>();
+		List<List<String>> results = new ArrayList<List<String>>();
 
 		dfs(root, results, curr);
-
-		for (ArrayList<String> al : results) {
-			StringBuilder sb = new StringBuilder();
-			sb.append(al.get(0));
-			for (int i = 1; i < al.size(); i++) {
-				sb.append("->" + al.get(i));
-			}
-
-			finalResult.add(sb.toString());
-		}
-
+		generateResult(results, finalResult);
 		return finalResult;
 	}
 
-	public void dfs(TreeNode root, ArrayList<ArrayList<String>> list, ArrayList<String> curr) {
+	public static void dfs(TreeNode root, List<List<String>> list, List<String> curr) {
 		curr.add(String.valueOf(root.val));
 
 		if (root.left == null && root.right == null) {
@@ -46,8 +36,28 @@ public class BinaryTreePaths {
 			dfs(root.right, list, temp);
 		}
 	}
+
+	public static void generateResult(List<List<String>> results, List<String> finalResult) {
+		for (List<String> al : results) {
+			StringBuilder sb = new StringBuilder();
+			sb.append(al.get(0));
+			for (int i = 1; i < al.size(); i++) {
+				sb.append("->" + al.get(i));
+			}
+			finalResult.add(sb.toString());
+		}
+	}
+
 	public static void main(String[] args) {
-		TreeNode root = new TreeNode(3);
-		
+		TreeNode root = new TreeNode(2);
+		root.left = new TreeNode(3);
+		root.left.left = new TreeNode(6);
+		root.left.right = new TreeNode(9);
+		root.right = new TreeNode(4);
+		root.right.left = new TreeNode(12);
+		root.right.right = new TreeNode(1);
+		root.right.right.left = new TreeNode(11);
+		List<String> res = binaryTreePaths(root);
+		System.out.println(res.toString());
 	}
 }
