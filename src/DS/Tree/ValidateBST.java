@@ -20,7 +20,6 @@ public class ValidateBST {
 		root.right = new TreeNode(19);
 		root.right.left = new TreeNode(10);
 		root.right.right = new TreeNode(20);
-
 		System.out.println(isValidBST(root));
 	}
 }
