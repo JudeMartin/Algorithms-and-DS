@@ -6,8 +6,13 @@ public class ValidateBST {
 	}
 
 	public static boolean validate(TreeNode root, long min, long max) {
-		return (root == null) || (root.val > min && root.val < max) && validate(root.left, min, root.val)
-				&& validate(root.right, root.val, max);
+		if (root == null) {
+			return true;
+		}
+		boolean value = (root.val > min && root.val < max);
+		boolean leftTree = validate(root.left, min, root.val);
+		boolean rightTree = validate(root.right, root.val, max);
+		return value && leftTree && rightTree;
 
 	}
 
